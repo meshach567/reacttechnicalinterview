@@ -22,7 +22,8 @@ function App() {
     
   }
 
-  const fruitsDataFiltered = fruitsData.filter((fruit) => fruit.toLocaleLowerCase().includes(searchTerm .toLocaleLowerCase())
+  const fruitsDataFiltered = fruitsData.filter((fruit) => 
+    fruit.toLocaleLowerCase().includes(searchTerm .toLocaleLowerCase())
   )
 
   return (
